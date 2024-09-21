@@ -13,7 +13,7 @@
     <div class="container">
 
         <div class="left-sidebar">
-                <h1 class="line-height"><a href="#tallinn" class="title">Tallinn</a> <span>my hometown</span></h1>
+                <h1 class="line-height title"><a href="#tallinn" >Tallinn</a> <span>my hometown</span></h1>
             <div class="menu-links">
                 <a href="#about-tallinn"><h2>About Tallinn</h2></a>
                 <a href="#childhood"><h2>Childhood Favorites</h2></a>
@@ -140,6 +140,12 @@
                 </div>
         </div>
     </div>
+
+    <script>
+        if (window.innerWidth <= 320) { // Muuda 768 vastavalt vajadusele
+            window.location.href = 'mobile.html'; // Suunamine mobiiliversioonile
+        }
+    </script>
 
 </body>
 
