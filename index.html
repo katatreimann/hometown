@@ -5,47 +5,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Hometown</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style3.css">
 </head>
 
 <body>
-    <div class="menu-container">
-       <h1>Tallinn my hometown</h1>
-       <h2>About Tallinn</h2>
-       <h2>My three favourite places from my childhood</h2>
-       <h2>Places to visit these days..</h2>
-       <h3>Local events..</h3>
-       <h3>In Tallinn..</h3>
-       <h3>Near Tallinn..</h3>
-   </div>
 
-   <div>
-      <img src="images/tallinn.jpg">
-      <div>
-         <img src="images/old-town.jpg">
-         <img src="images/museum-of-nature.jpg">
-         <img src="images/lasnamägi.jpg">
-      </div>
-      <div>
-        <img src="images/christmas-market.jpg">
-        <img src="images/song-and-dance-festival.jpg">
-        <img src="images/tallinn-design-estival.jpg">
-     </div>
-     <div>
-        <img src="images/old-town-2.jpg">
-        <img src="images/telliskivi-creative-city.jpg">
-        <img src="images/the-estonian-open-air-museum.jpg">
-     </div>
-     <div>
-        <img src="images/lahemaa-national-park.jpg">
-        <img src="images/island-of-prangli.jpg">
-        <img src="images/rummu-quarry-and-prison.jpg">
-     </div>
+    <div class="container">
+        <div class="left-sidebar">
+                <h1 class="line-height"><a href="#tallinn" class="title">Tallinn</a> <span>my hometown</span></h1>
+            <div class="menu-links">
+                <a href="#about-tallinn"><h2>About Tallinn</h2></a>
+                <a href="#Childhood"><h2>Childhood Favorites</h2></a>
+                <a href="#Events"><h3>Local Events</h3></a>
+                <a href="#Attractions"><h3>City Attractions</h3></a>
+                <a href="#Beauty"><h3>Nearby Beauty</h3></a>
+             </div>
+        </div>
+        <div class="right-content">
 
-   </div>
-    
+                <img src="images/tallinn.jpg" class="img-tallinn  with-inner-images" id="tallinn">
 
-    <script src="script.js"></script>
+                <div class="with-inner-images" id="about-tallinn">
+                    <p>Tallinn is a unique city where the medieval Old Town, with its ancient towers and cobblestone streets, meets modern skyscrapers. Here you can enjoy a rich cultural scene, taste Estonian food, and explore beautiful parks and the seaside – a perfect destination for history and nature lovers alike.</p>
+                </div>
+
+                <div class="childhood-container with-inner-images" id="Childhood">
+                    <img src="images/old-town.jpg" class="inner-image-block">
+                    <img src="images/museum-of-nature.jpg" class="inner-image-block">
+                    <img src="images/lasnamägi.jpg" class="inner-image-block">
+                </div>
+
+                <div class="events-container with-inner-images" id="Events">
+                    <img src="images/christmas-market.jpg" class="inner-image-block">
+                    <img src="images/song-and-dance-festival.jpg" class="inner-image-block">
+                    <img src="images/tallinn-design-estival.jpg" class="inner-image-block">
+                </div>
+
+                <div class="in-container with-inner-images" id="Attractions">
+                    <img src="images/old-town-2.jpg" class="inner-image-block">
+                    <img src="images/telliskivi-creative-city.jpg" class="inner-image-block">
+                    <img src="images/the-estonian-open-air-museum.jpg" class="inner-image-block">
+                 </div>
+         
+                 <div class="near-container with-inner-images" id="Beauty">
+                    <img src="images/lahemaa-national-park.jpg" class="inner-image-block">
+                    <img src="images/island-of-prangli.jpg" class="inner-image-block">
+                    <img src="images/rummu-quarry-and-prison.jpg" class="inner-image-block">
+                 </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
