@@ -47,7 +47,7 @@ body, html {
 }
 
 .inner-image-block {
-    width: 32%; 
+    width: 100%; 
     height: auto; 
     /* margin: 0; */
 }
@@ -135,6 +135,59 @@ a:hover {
     color: #002762; 
     text-decoration: underline;
 }
+
+
+/* OVERLAY */
+
+.image-container {
+    position: relative; /* Position relative parent */
+    width: 32%; /* Vastavalt sinu eelnevale määratlemisele */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Udu kiht */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0; /* Alguses nähtamatu */
+    transition: opacity 0.3s ease; /* Sujuv üleminek */
+}
+
+.image-container:hover .overlay {
+    opacity: 1.5; /* Näita kihti hover'ides */
+}
+
+.overlay a {
+    color: white; /* Linkide värv */
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.overlay p {
+    text-align: center;
+    font-size: smaller;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.image-container h4 {
+    text-align: center;
+    font-size:large;
+}
+
+.image-container .see-more {
+    margin-top: 10%;
+    font-size: small;
+    font-weight: lighter;
+}
+
+
 
 
 /* SCROLLBAR */
