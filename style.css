@@ -89,8 +89,7 @@ h1 span {
     right: 5%;
 }
 
-.left-sidebar h2, 
-.left-sidebar h3 {
+.left-sidebar h2,  {
     text-align: right;
     margin: 10px 0;
 }
@@ -100,7 +99,7 @@ h1 span {
     margin-right: 10px;
 }
 
-h2, h3 {
+h2 {
     font-size:large;
     font-weight: lighter;
 }
@@ -165,7 +164,7 @@ a:hover {
 }
 
 .image-container:hover .overlay {
-    opacity: 1.5; 
+    opacity: 1; 
 }
 
 .overlay a {
@@ -180,7 +179,7 @@ a:hover {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
-.image-container h4 {
+.image-container h3 {
     text-align: center;
     font-size:large;
     padding: 20px;
@@ -195,33 +194,35 @@ a:hover {
 /* MAP */
 
 .map-container {
-    margin: 90px 0;
+    margin: 90px 0 10px 0;
     text-align: center;
 }
+
+.map-container h2 {
+    padding: 10px;
+}
+
 
 /* FOOTER */
 
 .footer-container footer {
     padding: 10px;
-    text-align: left;
-    /* border-top: 1px solid #242424; */
-    text-align: start;
+}
+
+footer .back-to-top {
+    padding: 10px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    font-size: large;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 footer p {
     margin: 5px 0;
     font-size: small;
-}
-
-footer a {
-    color: #002762;
-    text-decoration: none;
-    font-size: large;
-    margin-top: 10%;
-}
-
-footer a:hover {
-    text-decoration: underline;
 }
 
 
@@ -259,7 +260,7 @@ footer a:hover {
 @media (min-width: 992px) and (max-width: 1199px) {
 
     h1 {
-        Font-size: 5rem;
+        font-size: 5rem;
     }
 
     .overlay p {
