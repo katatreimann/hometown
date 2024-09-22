@@ -8,6 +8,23 @@
 </head>
 <body>
 
+    <div class="navbar">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label class="menu-icon" for="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </label>
+        <div class="nav-links">
+            <a href="#about-tallinn">About</a>
+            <a href="#childhood">Childhood Favorites</a>
+            <a href="#events">Local Events</a>
+            <a href="#attractions">City Attractions</a>
+            <a href="#beauty">Nearby Beauty</a>
+            <a href="#map">Explore the Map</a>
+        </div>
+    </div>
+
     <div class="container">
         <img src="images/tallinn.jpg" alt="Night view of Tallinn from the city to the sea." class="bg-image">
         <h1 class="title">Tallinn<span class="subtitle">my hometown</span></h1>
@@ -19,7 +36,7 @@
 
     <div class="image-section">
 
-        <h2>Childhood Favorites</h2>
+        <h2 id="childhood">Childhood Favorites</h2>
 
         <div class="image-container">
             <img src="images/lasnamägi.jpg" class="image" alt="Night shot of a Lasnamäe panel building with the moon overhead.">
@@ -37,7 +54,7 @@
         </div>
 
         <div class="events-section">
-            <h2>Local Events</h2>
+            <h2 id="events">Local Events</h2>
         
             <div class="image-container">
                 <img src="images/christmas-market.jpg" class="image" alt="Snowy Christmas market in Town Hall Square with small stalls and a Christmas tree.">
@@ -65,7 +82,7 @@
         </div>
 
         <div class="attractions-section">
-            <h2>City Attraction</h2>
+            <h2 id="attractions">City Attraction</h2>
         
             <div class="image-container">
                 <img src="images/old-town-2.jpg" class="image" alt="In the foreground, flower stalls in the background overlook the old town with its great medieval gates.">
@@ -93,7 +110,7 @@
         </div>
 
         <div class="beauty-section">
-            <h2>Natural Beauty</h2>
+            <h2 id="beauty">Nearby Beauty</h2>
         
             <div class="image-container">
                 <img src="images/lahemaa-national-park.jpg" class="image" alt="Sunrise bog forest with boardwalk.">
@@ -133,12 +150,18 @@
         </div>
         
         
-        
     </div>
     
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const navLinks = document.querySelectorAll('.nav-links a');
     
-
-
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                menuToggle.checked = false; 
+            });
+        });
+    </script>
 
 </body>
 </html>
