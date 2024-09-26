@@ -263,7 +263,7 @@ footer p {
 
     .img-tallinn {
         margin: 0 0 0 50px;
-        margin-top: 40px;
+        padding-top: 50px;
     }
 
     .with-inner-images {
@@ -271,7 +271,7 @@ footer p {
     }
 
     .overlay p {
-        font-size: small;
+        font-size: 7px;
         /* width: 80%; */
     }
 
