@@ -129,12 +129,12 @@ h2 {
 
 .image-section {
     width: 100vw;
-    padding-top: 100px;
+    padding-top: 10px;
 }
 
 .image-container {
     width: 100%; 
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
 }
 
 .image {
@@ -160,33 +160,11 @@ a {
     text-decoration: none;
 }
 
-
-/* MAP */
-
-.map-container {
-    padding-bottom: 50px;
+#childhood {
+    margin-top: 100px;
 }
 
-.map-container h2 {
-    font-size: medium;
-}
-
-/* FOOTER */
-
-.footer-container .back-to-top  {
-    padding: 10px;
-    margin-bottom: 50px;
-    font-size: x-large;
-}
-
-.footer-container p {
-    font-size: small;
-    padding: 20px;
-}
-
-
-
-
+/* GALLERY CONTAINER*/
 
 
 .gallery-container {
@@ -205,23 +183,13 @@ button {
     cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
 .childhood-section,
 .image-section,
 .attractions-section,
 .nearby-section {
     text-align: center;
     position: relative;
-    margin-bottom: 40px; /* Et lisada ruumi sektsioonide vahel */
+    margin-bottom: 40px; 
 }
 
 .buttons {
@@ -248,31 +216,25 @@ button {
 
 
 
+/* MAP */
 
-
-
-
-
-
-/* .childhood-section {
-    position: relative;
-    text-align: center;
+.map-container {
+    padding-bottom: 50px;
 }
 
-.childhood-section .buttons {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
+.map-container h2 {
+    font-size: medium;
 }
 
-.childhood-section .arrow-button {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 5px 10px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+/* FOOTER */
+
+.footer-container .back-to-top  {
+    padding: 10px;
+    margin-bottom: 50px;
+    font-size: x-large;
 }
 
-.childhood-section .arrow-button:hover {
-    background-color: #eee;
-} */
+.footer-container p {
+    font-size: small;
+    padding: 20px;
+}
