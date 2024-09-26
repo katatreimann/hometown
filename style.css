@@ -262,8 +262,13 @@ footer p {
     }
 
     .img-tallinn {
-        padding: 50px;
+        margin: 0 50px;
     }
+
+    .with-inner-images {
+        margin: 0 50px;
+    }
+    
     
 }
 
