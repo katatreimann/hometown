@@ -249,7 +249,7 @@ footer p {
 
 /* MEDIA QUERY */
 
-@media (min-width: 1200px) {
+@media (min-width: 1199px) {
     .container {
         margin-left: auto; 
         margin-right: auto; 
