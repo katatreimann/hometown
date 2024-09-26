@@ -268,7 +268,14 @@ footer p {
     .with-inner-images {
         margin: 0 0 0 50px;
     }
-    
+
+    .overlay p {
+        font-size: small;
+    }
+
+    .map-container {
+        margin: 0 0 0 50px;
+    }
     
 }
 
