@@ -263,6 +263,7 @@ footer p {
 
     .img-tallinn {
         margin: 0 0 0 50px;
+        margin-top: 40px;
     }
 
     .with-inner-images {
@@ -271,6 +272,7 @@ footer p {
 
     .overlay p {
         font-size: small;
+        /* width: 80%; */
     }
 
     .map-container {
